@@ -14,3 +14,8 @@ def is_even(n: int) -> bool:
 def reverse_string(s: str) -> str:
     """Reverse a string."""
     return s[::-1]
+
+# :int are type hints. don't enforce any thing 
+def multiply(a: int , b: int) -> int:
+    """Multiply two numbers together"""
+    return a * b
