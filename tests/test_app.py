@@ -14,7 +14,7 @@ class TestMath:
 
     # Test For multiplying two Positive Numbers
     def test_multiply_two_positive(self):
-        assert multiply(2,2) == 4
+        assert multiply(2,2) == 8
     
     # Test for multiplying by Zero
     def test_multiply_zero(self):
